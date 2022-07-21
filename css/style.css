@@ -5,10 +5,26 @@
 }
 
 body {
+    height: 100vh;
+    color: #ccff00;
+    background-color: black;
+    font-family: 'Pirata One', cursive;
+}
+
+h1 {
+    position: absolute;
+    z-index: 999;
+    text-shadow: 0px 1px 0px #c1e938, 0px 2px 0px #b6d34f, 0px 3px 0px #aabe5f, 0px 4px 0px #9da96c, 0px 5px 0px #8f9477, 0px 6px 0px #808080, 0px 7px 0px #6a6a6a, 0px 8px 7px #545454;;
+    font-size: 60px;
+}
+
+img {
+    position: relative;
+}
+
+.title {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    color: yellowgreen;
-    background-color: black;
-    font-family: 'Pirata One', cursive;}
+}

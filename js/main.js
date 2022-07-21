@@ -3,5 +3,6 @@ const title = new Vue({
     
     data: {
         Hello: 'Hello Vue',
+        linkImg : 'https://devtools.vuejs.org/logo.svg'
     }
 })
